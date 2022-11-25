@@ -8,7 +8,7 @@
       "modificationDate" : 1553518164.2811341,
       "owner" : "me",
       "ports" : "80",
-      "process" : "\/Applications\/Sublime Text.app\/Contents\/MacOS\/Sublime Text",
+      "process" : "\/Applications\/Sublime Text.app\/Contents\/MacOS\/sublime_text",
       "protocol" : "tcp",
       "remote-domains" : "sublimetext.com"
     },
@@ -18,7 +18,7 @@
       "modificationDate" : 1540159578.1943688,
       "owner" : "me",
       "ports" : "443",
-      "process" : "\/Applications\/Sublime Text.app\/Contents\/MacOS\/Sublime Text",
+      "process" : "\/Applications\/Sublime Text.app\/Contents\/MacOS\/sublime_text",
       "protocol" : "tcp",
       "remote-domains" : "sublimetext.com"
     }
