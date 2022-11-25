@@ -1,0 +1,42 @@
+{
+    "description" : "",
+    "name" : "DayOne",
+    "rules" : [
+      {
+        "action" : "allow",
+        "creationDate" : 1631893359.5009511,
+        "modificationDate" : 1631893359.5009511,
+        "owner" : "me",
+        "ports" : "443",
+        "process" : "\/Applications\/Day One.app\/Contents\/MacOS\/Day One",
+        "protocol" : "tcp",
+        "remote-domains" : "s3.amazonaws.com"
+      },
+      {
+        "action" : "allow",
+        "creationDate" : 1631893401.3240161,
+        "modificationDate" : 1631893401.3240161,
+        "owner" : "me",
+        "ports" : "443",
+        "process" : "\/Applications\/Day One.app\/Contents\/MacOS\/Day One",
+        "protocol" : "tcp",
+        "remote-domains" : "darksky.net"
+      },
+      {
+        "action" : "allow",
+        "creationDate" : 1631893332.1870131,
+        "modificationDate" : 1631893332.1870131,
+        "owner" : "me",
+        "process" : "\/Applications\/Day One.app\/Contents\/MacOS\/Day One",
+        "remote-domains" : "dayone.app"
+      },
+      {
+        "action" : "allow",
+        "creationDate" : 1631893346.5004401,
+        "modificationDate" : 1631893495.7126951,
+        "owner" : "me",
+        "process" : "\/Applications\/Day One.app\/Contents\/MacOS\/Day One",
+        "remote-domains" : "intercom.io"
+      }
+    ]
+  }
