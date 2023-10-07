@@ -7,14 +7,10 @@
       "ports" : "443",
       "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
       "protocol" : "tcp",
-      "remote-hosts" : "oauth2.googleapis.com"
-    },
-    {
-      "action" : "allow",
-      "ports" : "443",
-      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
-      "protocol" : "tcp",
-      "remote-hosts" : "www.googleapis.com"
+      "remote-hosts" : [
+        "www.googleapis.com",
+        "oauth2.googleapis.com"
+      ]
     },
     {
       "action" : "allow",
