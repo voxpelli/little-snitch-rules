@@ -1,0 +1,27 @@
+{
+  "description" : "",
+  "name" : "Alfred",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Alfred 5.app\/Contents\/MacOS\/Alfred",
+      "protocol" : "tcp",
+      "remote-hosts" : "alfred.app"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Alfred 5.app\/Contents\/MacOS\/Alfred",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.alfredapp.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Alfred 5.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.alfredapp.com"
+    }
+  ]
+}
